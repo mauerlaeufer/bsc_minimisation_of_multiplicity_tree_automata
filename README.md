@@ -1,10 +1,9 @@
 # Minimization of multiplicity tree automata
-This is the accompanying source code for the bachelor thesis "Minimization of multiplicity tree automata" by Hanno Krümpelmann.
 An implementation in Rust of the minimisation algorithm described by Kiefer et. al. in 'Minimisation of Multiplicity Tree Automata'.
 
 # Notes about output
 One can easily see that the results of minimisation on most automata return matrices which, while containing the correct results, are 
-slightly inaccurate. This is a simple result of numerical instability and the inability to represent certain fractions as floating point
+slightly inaccurate. This is a result of numerical instability and the inability to represent certain fractions as floating point
 variables. 
 
 ## Executing the binary
